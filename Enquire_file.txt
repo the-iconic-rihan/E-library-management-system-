@@ -1,0 +1,25 @@
+
+	~~~~~~~~~~~~Enquiry Details~~~~~~~~~~~~~~
+Interested topic :- Politics
+Enquire @ :- 2021-03-01 22:44:50.835776
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Enquiry Details~~~~~~~~~~~~~~
+Interested topic :- History
+Enquire @ :- 2021-03-01 22:46:51.618216
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Enquiry Details~~~~~~~~~~~~~~
+Interested topic :- Engineering
+Enquire @ :- 2021-03-01 22:47:41.122880
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Enquiry Details~~~~~~~~~~~~~~
+Interested topic :- Science
+Enquire @ :- 2021-03-01 22:56:51.893991
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Enquiry Details~~~~~~~~~~~~~~
+Interested topic :- Science
+Enquire @ :- 2021-03-01 22:57:23.538716
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Enquiry Details~~~~~~~~~~~~~~
+Interested topic :- History
+Enquire @ :- 2021-03-01 23:04:36.142107
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
