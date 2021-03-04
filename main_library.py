@@ -129,55 +129,37 @@ class Library:
         if interest_topic == self.interest_list[0]:
 
             print("Here are the books related to politics: ")
-            for index[1], books in enumerate(political_books):
-                print(f"{index}]{books}")
+            for index, books in enumerate(political_books):
+                print(f"{index +1}]{books}")
 
         elif interest_topic == self.interest_list[1]:
 
             print("Here are the books related to history:")
             for index, books in enumerate(historical_books):
-                print(f"{index}]{books}")
+                print(f"{index +1}]{books}")
 
         elif interest_topic == self.interest_list[2]:
             print("Here are the books related to Geography:")
 
             for index, books in enumerate(geographical_book):
-                print(f"{index}]{books}")
+                print(f"{index +1}]{books}")
 
         elif interest_topic == self.interest_list[3]:
             print("Here are the books related to Science:")
 
             for index, books in enumerate(scientific_books):
-                print(f"{index}]{books}")
+                print(f"{index +1}]{books}")
 
         elif interest_topic == self.interest_list[4]:
 
             print("Here are the books related to Engineering:")
 
             for index, books in enumerate(engineerings_books):
-                print(f"{index}]{books}")
+                print(f"{index +1}]{books}")
 
         else:
-            print("Here is the list of entire books in library.")
-            print("Books related to politics")
-            for index, books in enumerate(political_books):
-                print(f"{index}]{books}")
-
-            print("Books related to History")
-            for index, books in enumerate(historical_books):
-                print(f"{index}]{books}")
-
-            print("Here are the books related to Science:")
-            for index, books in enumerate(scientific_books):
-                print(f"{index}]{books}")
-
-            print("Here are the books related to engineering:")
-            for index, books in enumerate(engineerings_books):
-                print(f"{index}]{books}")
-
-            print("Here are the books related to Geography:")
-            for index, books in enumerate(geographical_book):
-                print(f"{index}]{books}")
+            print("But, You entered the wrong topic.")
+            main()
 
     def lend_book(self, user_interest, reader, book, book_reference):
 
@@ -254,7 +236,6 @@ class Library:
                 print(f"Book lend to {reader}")
             elif book not in engineerings_books:
                 print("You Enter the incorrect book. Please go with the correct one!")
-
         else:
             print("Please , select the correct intereset topic.")
 
@@ -333,7 +314,7 @@ def main():
             # taking input for interested topic
 
             for index, topic in enumerate(interest_topic):
-                print(f"{index}]{topic}")
+                print(f"{index +1}]{topic}")
             interest_topics = str(input("Enter your interested topic : "))
             # Saving th details for students enquire in library
             with open("Enquire_file.txt", "a") as f:
@@ -351,7 +332,7 @@ def main():
 
         elif user_input == 3:
             for index, topic in enumerate(interest_topic):
-                print(f"{index}]{topic}")
+                print(f"{index +1}]{topic}")
             interest_topics = str(input("Enter your interested topic : "))
             lib_obj.display_book(interest_topics)
             book_name = (input("Enter the book name from list :- "))
@@ -374,7 +355,7 @@ def main():
         # code for return function
         elif user_input == 4:
             for index, topic in enumerate(interest_topic):
-                print(f"{index}]{topic}")
+                print(f"{index +1}]{topic}")
             interest_topics = str(input("Enter your interested topic : "))
             print("Which books do you want to return?")
             book_name = str(input("Enter the book name:- "))
@@ -410,7 +391,7 @@ def main():
                 admin_choice = int(input("Hit your choice: "))
                 if admin_choice == 1:
                     for index, topic in enumerate(interest_topic):
-                        print(f"{index}]{topic}")
+                        print(f"{index +1}]{topic}")
                     interest_topics = str(input("Enter your interested topic : "))
                     lib_obj.display_book(interest_topics)
                     print("Which book you want to delete? : ")
