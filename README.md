@@ -1,4 +1,4 @@
-# E-library-management-system-
+# E-library-management-system
 
 The online library management system in python .
 
