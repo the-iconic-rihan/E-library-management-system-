@@ -1,0 +1,16 @@
+
+	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
+	Name of Borrower:- RIHAN
+	Name of Book:- 24 Akbar rOAD
+	Book Return on :- 2021-03-06 14:44:36.903823
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
+	Name of Borrower:- rihan
+	Name of Book:- 24 Akbar Road
+	Book Return on :- 2021-03-06 14:46:22.660906
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
+	Name of Borrower:- wwww
+	Name of Book:- India After Gandhi
+	Book Return on :- 2021-03-06 15:28:40.294316
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

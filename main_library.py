@@ -24,12 +24,9 @@ class Library:
         # verifying the interested topic
         # seaching for the given book in the topic enterd.
         try:
-
-            print(self.lend_Dict)
             if interest_topic in interested_topic.keys() and self.lend_Dict[book] is not None:
                 self.lend_Dict.pop(book)
                 interested_topic[interest_topic].append(book)
-                print("Your books has successfully returned")
 
             else:
                 print(f"The'{book}' book name is incorrect or the book is not lend by '{author} ")
@@ -38,6 +35,7 @@ class Library:
             print(f"{interest_topic} is not correct. Try again.")
 
         finally:
+            print("Your books has successfully returned")
             main()
 
     # Accepting the donation of book from the outsiders function
@@ -72,7 +70,7 @@ class Library:
         # who owns the book if not available
         # searching the book in interested topics
         if user_interest in interested_topic.keys() or self.donated_dict.keys():
-            if book in self.lend_Dict is not None:
+            if book in self.lend_Dict and self.lend_Dict[book] is None:
                 # the none means no author has lend this book
                 self.lend_Dict[book] = reader
                 self.interest_list[user_interest].remove(book)
@@ -80,8 +78,8 @@ class Library:
                 print("Your details as saved ....Collect your book.")
                 print(f"Book lend to {reader}")
 
-            else:
-                print(f"No book named {book} is tagged in {user_interest}")
+            elif book not in self.lend_Dict or self.lend_Dict[book] is not None:
+                print(f"No book named {book} is tagged in {user_interest} or {book} is lend by someone else.")
 
         else:
             print("Please , select the correct intereset topic.")
