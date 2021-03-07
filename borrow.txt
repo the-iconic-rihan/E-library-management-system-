@@ -97,3 +97,45 @@
 	Book reference id is :- 4
 	Borrowing time :- 2021-03-06 15:27:55.306658
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Borrowing Details~~~~~~~~~~~~~~
+	Borrower's name :- wasi
+	Interested Topic :- Politics
+	Book name :- Rahul Gandhi
+	Book reference id is :- 4
+	Borrowing time :- 2021-03-06 15:54:49.977699
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Borrowing Details~~~~~~~~~~~~~~
+	Borrower's name :- wasi
+	Interested Topic :- Politics
+	Book name :- Rahul Gandhi
+	Book reference id is :- 5
+	Borrowing time :- 2021-03-06 15:56:39.645104
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Borrowing Details~~~~~~~~~~~~~~
+	Borrower's name :- rihan
+	Interested Topic :- Geography
+	Book name :- Dimensions
+	Book reference id is :- 16
+	Borrowing time :- 2021-03-06 15:59:08.629923
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Borrowing Details~~~~~~~~~~~~~~
+	Borrower's name :- wasi
+	Interested Topic :- Geography
+	Book name :- www
+	Book reference id is :- 5
+	Borrowing time :- 2021-03-06 16:00:40.483618
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Borrowing Details~~~~~~~~~~~~~~
+	Borrower's name :- wwww
+	Interested Topic :- Politics
+	Book name :- aaaa
+	Book reference id is :- 12
+	Borrowing time :- 2021-03-06 16:02:27.984494
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~Borrowing Details~~~~~~~~~~~~~~
+	Borrower's name :- wasi
+	Interested Topic :- Geography
+	Book name :- Dimensions
+	Book reference id is :- 12
+	Borrowing time :- 2021-03-06 16:34:16.703179
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -14,3 +14,8 @@
 	Name of Book:- India After Gandhi
 	Book Return on :- 2021-03-06 15:28:40.294316
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
+	Name of Borrower:- Wasi
+	Name of Book:- Dimensions
+	Book Return on :- 2021-03-06 16:35:09.400136
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

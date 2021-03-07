@@ -10,7 +10,6 @@ class Library:
         self.interest_list = interest_topic
         self.library_name = library_name
         self.lend_Dict = {}
-        self.donated_dict = {}
 
         # for adding book
         # none means no one has lend this book
@@ -41,11 +40,13 @@ class Library:
     # Accepting the donation of book from the outsiders function
 
     def add_book(self, interest_topic, book_name):
-
         if interest_topic in interested_topic.keys():
-            self.donated_dict.update({interest_topic: book_name})
-            self.lend_Dict[book_name] = None
+            for topic in interested_topic.keys():
+                interested_topic[topic].append(book_name)
+                self.lend_Dict[book_name] = None
             print(f"{book_name} added successfully")
+            print(self.lend_Dict)
+
         else:
             print("Sorry, we can't accept the book.")
 
@@ -53,10 +54,9 @@ class Library:
 
         # the below will allow you to choose the interested topic
         try:
-            if interest_topic in interested_topic.keys() and self.donated_dict.keys():
+            if interest_topic in interested_topic.keys():
                 print(f"Here are the books related to {interest_topic}:")
                 print(f"{interested_topic.__getitem__(interest_topic)}")
-                print(f"{self.donated_dict[interest_topic]} is EXTRA BOOK")
             else:
                 print(f"Here are the books related to {interest_topic}")
                 print(f"{interested_topic.__getitem__(interest_topic)}")
@@ -69,7 +69,7 @@ class Library:
 
         # who owns the book if not available
         # searching the book in interested topics
-        if user_interest in interested_topic.keys() or self.donated_dict.keys():
+        if user_interest in interested_topic.keys():
             if book in self.lend_Dict and self.lend_Dict[book] is None:
                 # the none means no author has lend this book
                 self.lend_Dict[book] = reader
@@ -77,7 +77,6 @@ class Library:
                 print(f"Your book reference id is:- {book_reference}. Please save it for further reference.")
                 print("Your details as saved ....Collect your book.")
                 print(f"Book lend to {reader}")
-
             elif book not in self.lend_Dict or self.lend_Dict[book] is not None:
                 print(f"No book named {book} is tagged in {user_interest} or {book} is lend by someone else.")
 
@@ -429,7 +428,6 @@ if __name__ == '__main__':
                         "Engineering": ["Introduction to Algorithm", "The C Programming Language",
                                         "The Art of Computer Programming", "The Computer Networking"]}
     lib_obj = Library(interested_topic, libraryname)
-
 
     password_key = 4562
 
