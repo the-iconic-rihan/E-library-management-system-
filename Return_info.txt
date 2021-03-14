@@ -1,21 +1,11 @@
 
 	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
-	Name of Borrower:- RIHAN
-	Name of Book:- 24 Akbar rOAD
-	Book Return on :- 2021-03-06 14:44:36.903823
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
 	Name of Borrower:- rihan
-	Name of Book:- 24 Akbar Road
-	Book Return on :- 2021-03-06 14:46:22.660906
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
-	Name of Borrower:- wwww
-	Name of Book:- India After Gandhi
-	Book Return on :- 2021-03-06 15:28:40.294316
+	Name of Book:- science
+	Book Return on :- 2021-03-13 13:12:38.192577
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	~~~~~~~~~~~~~~Return info~~~~~~~~~~~~~~~~~
 	Name of Borrower:- Wasi
-	Name of Book:- Dimensions
-	Book Return on :- 2021-03-06 16:35:09.400136
+	Name of Book:- The C Programming Language
+	Book Return on :- 2021-03-13 19:09:04.366191
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
